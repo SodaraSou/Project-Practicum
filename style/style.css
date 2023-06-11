@@ -25,12 +25,28 @@ a {
 }
 
 .logo {
-  background-color: grey;
+  background-color: #A5F3FC;
   width: 300px;
   height: 100px;
   position: relative;
   top: 50px;
   left: 300px;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 350px;
+}
+
+.title h1 {
+  font-size: 80px;
+  margin-bottom: 10px;
+}
+
+.title p {
+  font-size: 30px;
 }
 
 .container {
