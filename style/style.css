@@ -4,17 +4,21 @@
   padding: 0;
 }
 
-html {
+/* html {
   font-family: sans-serif;
   line-height: 1;
-}
+} */
 
 a {
   text-decoration: none;
 }
 
+.bg-color {
+  background-color: #a5f3fc;
+}
+
 #popularProvince {
-  background-color: #A5F3FC;
+  background-color: #a5f3fc;
 }
 
 .hero {
@@ -24,13 +28,28 @@ a {
   background-position: center;
 }
 
-.logo {
-  background-color: #A5F3FC;
-  width: 300px;
+.logo-container {
+  /* background-color: red; */
+  width: 1400px;
   height: 100px;
+  padding: 0px 20px;
+  margin: auto;
   position: relative;
   top: 50px;
-  left: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  background-color: #a5f3fc;
+  width: 300px;
+  height: 100px;
+}
+
+.login {
+  width: 50px;
+  height: 50px;
 }
 
 .title {
@@ -49,39 +68,15 @@ a {
   font-size: 30px;
 }
 
-.container {
-  /* background-color: grey; */
-  width: 1200px;
-  height: 100px;
-  margin: auto;
-}
-
 .sectionContainer {
   /* background-color: blue; */
   padding: 50px;
   margin-bottom: 50px;
 }
 
-.navbar {
-  background-color: #A5F3FC;
-  padding: 20px;
+.nav-container-position {
   position: relative;
-  top: -50px;
-}
-
-.navbar ul {
-  display: flex;
-  justify-content: space-evenly;
-  list-style-type: none;
-}
-
-.navbar li {
-  background-color: white;
-  width: 200px;
-  padding: 20px;
-  text-decoration: none;
-  text-align: center;
-  border-radius: 50px;
+  top: -52px;
 }
 
 .footer {
