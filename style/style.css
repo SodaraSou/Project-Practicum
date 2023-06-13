@@ -22,7 +22,7 @@ a {
 }
 
 .hero {
-  height: 75vh;
+  height: 100vh;
   background-image: url("../assets/img/Angkor\ Wat\ Hero.jpg");
   background-size: cover;
   background-position: center;
