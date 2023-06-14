@@ -55,10 +55,7 @@ a {
 .title {
   color: white;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin-top: 320px;
 }
 
 .title h1 {
