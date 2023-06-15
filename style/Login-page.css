@@ -66,12 +66,13 @@
   
   .eye-icon {
     font-size: 18px;
-    color: #8b8b8b;
+    color: #000000;
     position: absolute;
     top: 50%; 
     right: 10px;
     cursor: pointer;
     padding: 5px;
+    transform: translateY(-50%);
   }
   
   .field button {
@@ -100,7 +101,7 @@
     text-decoration: none; /* no underline in the word */
   }
   
-  .form a:hover{
+  form a:hover{
     text-decoration: underline;
   }
   
@@ -122,8 +123,19 @@
     color: #232836;
     padding: 0 15px;
   }
-  
+
   .media-options a {
     display: flex;
+    align-content: center;
+    align-items: center;
+    color: #fff;
     background-color: #4267b2;
   }
+
+  /*a.facebook {*/
+  /*  color: #fff;*/
+  /*  background-color: #4267b2;*/
+  /*  !*display: flex;*!*/
+  /*  !*align-items: center;*!*/
+  /*  !*justify-content: center;*!*/
+  /*}*/
