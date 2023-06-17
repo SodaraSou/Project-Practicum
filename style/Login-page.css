@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightblue;
+}
+
+.form {
+  background-color: white;
+  max-width: 430px;
+  width: 100%;
+  padding: 30px;
+  border-radius: 6px; /*Curve edge*/
+}
+
+header {
+  font-size: 28px;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+}
+
+form {
+  margin-top: 30px;
+}
+
+.form .field {
+  height: 50px;
+  width: 100%;
+  margin-top: 20px; /* Space between */
+  position: relative;
+  border-radius: 6px;
+}
+
+.field input,
+.field button {
+  height: 100%;
+  width: 100%;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 6px;
+}
+
+.field input {
+  outline: none;
+  padding: 0 15px; /* margin between letter and box */
+  border: 1px solid #cacaca;
+}
+
+.field input:focus {
+  border-bottom-width: 2px;
+}
+
+.eye-icon {
+  font-size: 18px;
+  color: #000000;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  cursor: pointer;
+  padding: 5px;
+  transform: translateY(-50%);
+}
+
+.field button {
+  color: #fff;
+  background-color: #0466c8;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.field button:hover {
+  background-color: #016dcb;
+}
+
+.form-link {
+  text-align: end;
+  margin-top: 10px;
+}
+
+.form-link a {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.form a {
+  color: darkslategrey;
+  text-decoration: none; /* no underline in the word */
+}
+
+form a:hover {
+  text-decoration: underline;
+}
+
+.line {
+  height: 1px;
+  width: 100%;
+  margin: 36px 0;
+  position: relative;
+  background-color: #d4d4d4;
+}
+
+.line::before {
+  content: "Or";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  color: #232836;
+  padding: 0 15px;
+}
+
+.media-options a {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #4267b2;
+}
+
+/*a.facebook {*/
+/*  color: #fff;*/
+/*  background-color: #4267b2;*/
+/*  !*display: flex;*!*/
+/*  !*align-items: center;*!*/
+/*  !*justify-content: center;*!*/
+/*}*/
